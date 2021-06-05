@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 #define Browser optoin 
 ch_op = Options() 
 ch_op.add_argument("--headless")
-PATH = './chromedriver'; 
+PATH = '/usr/local/bin/chromedriver'; 
 driver  = webdriver.Chrome(executable_path=PATH,options=ch_op) 
 driver.get('https://google.com')
 
